@@ -1,0 +1,32 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	  
+ Scanner value=new Scanner(System.in);
+	  System.out.println("Enter A");
+	  double a=value.nextDouble();
+	  
+	   System.out.println("Enter B");
+	 double b=value.nextDouble();
+
+
+   
+	  
+if(a>b){
+	  
+	  System.out.println("The greater number is a that is:"+a);
+	  
+	}
+	else{
+	    System.out.println("The greater number is b that is:"+b);
+	}
+}
+}

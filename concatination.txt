@@ -1,0 +1,26 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	  
+ Scanner value=new Scanner(System.in);
+	  System.out.println("Enter string1");
+	  String string1=value.next();
+	  
+	  System.out.println("Enter string2");
+ String string2=value.next();
+
+String result=string1.concat(" ").concat(string2);
+System.out.println("The concatinated string is: "+result);
+    
+	  
+
+}
+}
